@@ -18,7 +18,5 @@ func GetTvmaze(query string) []byte {
 		log.Fatal(err)
 	}
 
-	encjson := []byte(data)
-
-	return encjson
+	return data
 }
