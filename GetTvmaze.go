@@ -8,7 +8,6 @@ import (
 )
 
 type Response struct {
-	ResultCount int
 	Results []map[string]string
 }
 
